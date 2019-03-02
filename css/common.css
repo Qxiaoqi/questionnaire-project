@@ -1,0 +1,137 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	min-width: 1280px;
+	/*min-height: 1900px;*/
+	background-color: #ede7f6;
+}
+
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: #010101;
+	/*background-color: #2fa3d4;*/
+	position: fixed;
+	/*box-shadow: 0px 4px 5px #141419; */
+	z-index: 1;	/*拥有更高的优先级，使之一直处于最顶层*/
+}
+
+.header-logo {
+	height: 60px;
+	float: left;
+	margin-left: 20px;
+}
+
+.header nav ul {
+	text-align: right;
+	margin-right: 60px;
+}
+
+.header nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 30px;
+	transition: 0.5s;
+}
+
+.header nav ul li:hover {
+	background-color: #6554FF;
+}
+
+.header nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 60px;
+}
+
+.content-top {
+	background-color: #2fa3d4;
+	width: 100%;
+	height: 260px;
+}
+
+
+
+/*底栏*/
+footer{
+	padding-top: 600px;
+}
+
+.contact{
+	background-color: #010101;
+	width: 100%;
+	height: 350px;
+	text-align: center;
+}
+
+.contact h3{
+	padding-top: 70px;
+	color: #ffffff;
+}
+
+.contact p{
+	padding-top: 20px;
+	color: #ffffff;
+	font-size: 13px;
+}
+
+.contact_submit{
+	padding-top: 60px;
+	width: 530px;
+	margin: 0 auto;
+}
+
+.email{
+	height: 40px;
+	width: 450px;
+	border: none;
+}
+
+.sub{
+	height: 40px;
+	width: 80px;
+	border: none;
+	box-sizing: border-box;
+	background-color: #494749;
+	color: #ffffff;
+	font-size: 15px;
+	float: right;
+	transition: 0.5s;
+}
+
+.sub:hover{
+	background-color: #2A2A2A;
+}
+
+.icon{
+	margin-top: 30px;
+}
+
+.icon img{
+	padding: 0 6px;
+	cursor: pointer;
+	position: relative;
+	bottom: 0px;
+	transition: 0.2s;
+}
+
+.icon img:hover{
+	bottom: 5px;
+}
+
+.footer_bottom{
+	width: 100%;
+	height: 70px;
+	background-color: #0B0B0B;
+	text-align: center;
+	position: relative;
+}
+
+.footer_bottom p{
+	color: #ffffff;
+	padding-top: 20px;
+}

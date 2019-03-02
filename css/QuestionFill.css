@@ -1,0 +1,115 @@
+@import url(common.css);
+
+.content-body {
+	margin-right: 490px;	
+	margin-left: 50px;
+	margin-top: -50px;		
+	background-color: #FFFFFF;
+	/*min-height: 600px;		*/
+	box-shadow: 0px 2px 5px #B3B3B3;
+}
+
+.form-header {
+	border-bottom: solid 2px #D1D1D1;
+	height: 60px;
+}
+
+/*=================================*/
+.form {
+	padding: 50px 100px;
+}
+
+.question {
+	font-size: 20px;
+	border-bottom: 1px solid #D1D1D1;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+}
+
+.question-wrap {
+	margin-bottom: 50px;
+}
+
+.options-block {
+	font-size: 16px;
+}
+
+.radio {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: -4px;
+	margin: 5px 0;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: -4px;
+	margin: 5px 0;
+}
+
+.text-input-block {
+	width: 640px;
+	height: 25px;
+	box-sizing: border-box;
+}
+
+.text-input-block-div {
+	margin-top: 20px;
+}
+
+.QuestionTitle {
+	font-size: 30px;
+	text-align: center;
+}
+
+.generate-question-div {
+	margin: 0 100px;
+}
+
+.generate-question {
+	border: none;	
+	background-color: #6554FF; 
+	width: 100%;
+	color: #ffffff;
+	height: 50px;
+	font-size: 18px;
+	border-radius: 4px;
+	margin-bottom: 100px;
+	transition: 0.5s;
+}
+
+.generate-question:hover {
+	background-color: #4A3AD9;
+}
+
+.content-right {
+	position: relative;
+	float: right;
+	background-color: #ffffff;
+	width: 390px;	
+	margin-right: 50px;
+	margin-top: 20px;
+	box-shadow: 0px 2px 5px #B3B3B3;
+}
+
+.display-block {
+	padding: 20px;
+}
+
+.display-block-span {
+	padding-bottom: 5px;
+	border-bottom: 2px #D1D1D1 solid;
+	margin-bottom: 10px;
+}
+
+.display-block li {
+	list-style: none;
+	margin-bottom: 5px;
+	color: #8B8B8B;
+	cursor: pointer;
+}

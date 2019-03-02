@@ -1,0 +1,147 @@
+@import url(common.css);
+
+.header nav ul {
+	/*margin-right: 77px;*/
+}
+
+.container {
+	/*background-color: #ffffff;*/
+}
+
+.background-img {
+	width: 100%;
+	/*opacity: 0;*/
+}
+
+.background-font {
+	width: 80%;
+	position: absolute;
+	top: 80px;
+	left: 30px;
+	opacity: 0;
+}
+
+.background-button {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	margin-left: -170px;
+	width: 340px;
+	height: 75px;
+	background: transparent;
+	color: #ffffff;
+	font-size: 30px;
+	/*font-weight: 700;*/
+	border: 3px #ffffff solid;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.background-button:hover {
+	background-color: #ffffff;
+	/*border-radius: 4px;*/
+	color: #000000;
+}
+
+.bottom {
+	text-align: center;
+}
+
+.bottom-title {
+	font-size: 25px;
+	text-align: left;
+	margin: 0 30px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	border-bottom: 2px solid #B7B7B7;
+}
+
+
+.bottom-block {
+	height: 500px;
+	width: 90%; 
+	margin: 150px auto 0;
+}
+
+.developers {
+	width: 33.3%;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	position: relative;
+}
+
+.renpicture {
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-perspective: 1000;
+}
+
+.developers-font {
+	font-size: 20px;
+	padding-top: 25px;
+	letter-spacing: 20px;
+}
+
+.LwolveJ-font {
+	letter-spacing: 0px;
+}
+
+.img , .img-font {
+	position: absolute;
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	box-shadow: 0 3px 5px #9E9E9E;
+	-webkit-transition: all 0.5s;
+}
+
+.img {
+	z-index: 5;
+	background-size: 250px 250px;
+}
+
+.img1 {
+	background-image: url("../img/lijie.jpg");
+}
+
+.img2 {
+	background-image: url("../img/ruiwenfan.jpg");
+}
+
+.img3 {
+	background-image: url("../img/xiaoqi.png");
+}
+
+.img-font {
+	font-size: 25px;
+	background-color: #1799e5;
+	-webkit-transform: rotateY(-180deg);
+	opacity: 0;
+}
+
+.img-font p {
+	line-height: 250px;
+	color: #FFFFFF;
+}
+
+.renpicture:hover .img{
+	-webkit-transform:rotateY(180deg);
+	z-index: 5;
+	opacity: 0;
+}
+
+.renpicture:hover .img-font {
+	-webkit-transform: rotateY(0deg);
+	z-index: 10;
+	opacity: 1;
+}
+
+footer{
+	padding-top: 0px;
+}

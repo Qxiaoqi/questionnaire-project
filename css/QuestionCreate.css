@@ -1,0 +1,267 @@
+@import url(common.css);
+
+.content-right {
+	position: relative;
+	float: right;
+	background-color: #ffffff;
+	width: 390px;	/*待调*/
+	margin-right: 50px;
+	margin-top: 20px;
+	/*border: #8F8F8F 1px solid;*/
+	box-shadow: 0px 2px 5px #B3B3B3;
+
+}
+
+.content-body {
+	margin-right: 490px;	
+	margin-left: 50px;
+	margin-top: -50px;		
+	background-color: #FFFFFF;
+	/*min-height: 600px;		*/
+	box-shadow: 0px 2px 5px #B3B3B3;
+}
+
+.input-block {
+	margin: 25px;
+	font-size: 18px;
+}
+
+.input-type-select {
+	height: 30px;
+}
+
+.type-intro {
+	display: inline-block;
+	line-height: 30px;
+}
+
+.type-intro-block {
+	display: inline-block;
+}
+
+.type-intro-block select {
+	width: 100px;
+	box-sizing: border-box;
+	height: 26px;
+	line-height: 30px;
+	position: relative;	/*使下拉菜单居中，期待有更好方案*/
+	bottom: 2px;
+}
+
+[class$="-box"] {
+	margin-top: 30px;
+	display: none;
+}
+
+.title-box {
+	margin-top: 30px;
+	display: block;
+}
+
+/*.radio-box-question {
+	height: 30px;
+}*/
+
+[class$="-box-question"] {
+	height: 30px;
+}
+
+/*.radio-box-intro {
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: middle;		
+}
+*/
+.options-wrap {
+	display: inline-block;
+}
+
+[class$="-box-intro"] {
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: middle;		
+}
+
+.radio-option-intro {
+	vertical-align: top;
+}
+
+.checkbox-option-intro {
+	vertical-align: top;
+}
+
+/*.radio-input {
+	height: 26px;
+	width: 280px;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: middle;
+	border: #D8D8D8 1px solid; 
+}
+*/
+
+[class$="-input"] {
+	height: 26px;
+	width: 280px;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: middle;
+	/*此处个上面面一处该代码为了让其位于父元素中部*/
+	border: #D8D8D8 1px solid; 
+}
+
+/*.radio-box-option {
+	margin-top: 15px;
+}*/
+
+[class$="-box-option"] {
+	margin-top: 15px;
+}
+
+/*.radio-option-input {
+	width: 230px;
+}
+*/
+[class$="-option-input"] {
+	width: 230px;
+}
+
+/*.radio-button {
+	width: 50px;
+	height: 26px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #6554FF;
+	margin-left: -6px;
+	color: #ffffff;
+	background-color: #6554FF;
+}*/
+
+[class$="-button"] {
+	width: 50px;
+	height: 26px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #6554FF;
+	margin-left: -6px;
+	color: #ffffff;
+	background-color: #6554FF;
+	transition: 0.5s;
+}
+
+[class$="-button"]:hover {
+	background-color: #5A4CDD;
+}
+
+.content-right-submit {
+	width: 340px;
+	margin-top: 20px;
+	border: none;
+	background-color: #2fa3d4;
+	height: 35px;
+	color: #ffffff;
+	transition: 0.5s;
+}
+
+.content-right-submit:hover {
+	background-color: #2B8BB3;
+}
+
+.delete-mask {
+	position: absolute;
+	width: 280px;
+	text-align: center;
+	/*background-color: #EB1C1C;*/
+	color: #ffffff;
+	border: none;
+	/*opacity: 0.9;*/
+	transition: 0.5s;
+}
+
+.delete-mask:hover {
+	background-color: #EB1C1C;
+	opacity: 0.9;
+}
+
+.option-wrap {
+	margin-top: 10px;
+}
+
+.form-header {
+	border-bottom: solid 2px #D1D1D1;
+	height: 60px;
+}
+
+
+.form {
+	padding: 50px 100px;
+}
+
+.question {
+	font-size: 20px;
+	border-bottom: 1px solid #D1D1D1;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+}
+
+.question-wrap {
+	margin-bottom: 50px;
+}
+
+.options-block {
+	font-size: 16px;
+}
+
+.radio {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: -4px;
+	margin: 5px 0;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: -4px;
+	margin: 5px 0;
+}
+
+.text-input-block {
+	width: 640px;
+	height: 25px;
+	box-sizing: border-box;
+}
+
+.text-input-block-div {
+	margin-top: 20px;
+}
+
+.QuestionTitle {
+	font-size: 30px;
+	text-align: center;
+}
+
+.generate-question-div {
+	margin: 0 100px;
+}
+
+.generate-question {
+	border: none;	
+	background-color: #6554FF; 
+	width: 100%;
+	color: #ffffff;
+	height: 50px;
+	font-size: 18px;
+	border-radius: 4px;
+	margin-bottom: 100px;
+	transition: 0.5s;
+}
+
+.generate-question:hover {
+	background-color: #4A3AD9;
+}
+

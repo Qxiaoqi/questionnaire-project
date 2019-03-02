@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>问卷平台</title>
+	<link rel="stylesheet" type="text/css" href="../css/QuestionCreate.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="container">
+		<!-- header头 -->
+		<header>
+			<div class="header">
+			<img class="header-logo" src="../img/logo.png">
+				<nav>
+					<ul>
+						<li><a href="../index.html">主页</a></li><!--
+						--><li><a href="#">生成问卷</a></li><!--
+						--><li><a href="QuestionChoose.html">问卷选择</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!-- 主体上侧色块 -->
+		<div class="content-top"></div>
+
+		<!-- 主体右侧浮动生成问题区域 -->
+		<div class="content-right" id="content-right">
+			<!-- 右侧整体布局 -->
+			<div class="input-block">
+				<!-- 输入类型布局 -->
+				<div class="input-type-select">
+					<span class="type-intro">类型：</span>
+					<!-- 下拉菜单布局 -->
+					<div class="type-intro-block">
+						<select id="input-type-select">
+							<option value="title">标题</option>
+							<option value="radio">单选题</option>
+							<option value="checkbox">多选题</option>
+							<option value="text">简短回答</option>
+						</select>
+					</div>
+				</div>
+
+				<!-- 标题 -->
+				<div class="title-box" id="title-box">
+					<div class="title-box-question">
+						<span class="title-box-intro">题目：</span>
+						<input class="set-question title-input" type="text" name="">
+					</div>
+				</div>
+
+				<!-- 单选问题 -->
+				<div class="radio-box" id="radio-box">
+					<!-- 问题 -->
+					<div class="radio-box-question">
+						<span class="radio-box-intro radio-question-intro">问题：</span>
+						<!-- input问题输入框 -->
+						<input class="set-question radio-input radio-question-input" type="text" value="">
+					</div>
+					<!-- 选项 -->
+					<div class="radio-box-option">
+						<span class="radio-box-intro radio-option-intro">选项：</span>
+						<!-- input选项输入框 -->
+						<div class="options-wrap">
+							<input class="add-option radio-input radio-option-input" type="text" value="" placeholder="请输入要设置选项">
+							<button class="add-btn radio-button" type="button">添加</button>
+						</div>
+						
+					</div>
+				</div>
+
+				<!-- 多选问题 -->
+				<div class="checkbox-box" id="checkbox-box">
+					<div class="checkbox-box-question">
+						<span class="checkbox-box-intro checkbox-question-intro">问题：</span>
+						<input class="set-question checkbox-input checkbox-question-input" type="text" name="">
+					</div>
+					<div class="checkbox-box-option">
+						<span class="checkbox-box-intro checkbox-option-intro">选项：</span>
+						<div class="options-wrap">
+							<input class="add-option checkbox-input checkbox-option-input" type="text" placeholder="请输入要设置选项" name="">
+							<button class="add-btn checkbox-button" type="button">添加</button>
+						</div>
+					</div>
+				</div>
+
+				<!-- 简短回答 -->
+				<div class="text-box" id="text-box">
+					<div class="text-box-question">
+						<span class="text-box-intro">问题：</span>
+						<input class="set-question text-input" type="text" name="">
+					</div>
+				</div>
+				<button class="content-right-submit" id="question-submit" type="button">添加问题</button>
+			</div>
+		</div>
+
+		<!-- 主体生成问卷 -->
+		<div class="content-body" id="content-body">
+			<div class="form-header"></div>
+			<div class="form-content">
+				<form id="form" class="form">
+				</form>
+				<div class="generate-question-div">
+					<button class="generate-question" id="generate-question">生成问卷</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- 底栏 -->
+		<footer>
+			<div class="contact">
+				<h3>联系我们</h3>
+				<p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯</br>也可以通过以下任何方式关注我们的动态</p>
+				<div class="contact_submit">
+					<input type="text" class="email"  placeholder="xiaoqi@email.com">
+					<input type="submit" class="sub">
+				</div>
+				<div class="icon">
+					<img src="../img/icon1.png">
+					<img src="../img/icon2.png">
+					<img src="../img/icon3.png">
+					<img src="../img/icon4.png">
+				</div>
+			</div>
+			<div class="footer_bottom">	
+				<p>@Java课设出品</p>
+			</div>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="../js/QuestionCreate.js"></script>
+</body>
+</html>

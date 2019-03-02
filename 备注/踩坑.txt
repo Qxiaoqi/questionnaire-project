@@ -1,0 +1,12 @@
+1、dom.style.width	
+	
+	之类的不能获取外部样式表(link)引入，只能获取到内联样式
+
+	可使用window.getComputedStyle(element, null).opacity 获取
+
+	另外，获取到的值为String类型，若想获得为数字  可用parseInt转换
+
+
+2、setInterval()
+
+	函数是异步执行

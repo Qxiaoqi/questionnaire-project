@@ -1,0 +1,25 @@
+@import url(common.css);
+
+.content-body {
+	padding: 0 100px;
+}
+
+.Question-wrap {
+	background-color: #ffffff;
+	margin: 50px 0;
+	height: 100px;
+	box-shadow: 0px 3px 5px #B3B3B3;
+	position: relative;
+	bottom: 0px;	/*此处必须先给定值，否则并没有动画*/
+	transition: 0.2s;
+}
+
+.Question-wrap-title {
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+}
+
+.Question-wrap:hover {
+	bottom: 10px;
+}

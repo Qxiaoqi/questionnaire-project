@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>填写问卷</title>
+	<link rel="stylesheet" type="text/css" href="../css/QuestionFill.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="container">
+		<!-- header头 -->
+		<header>
+			<div class="header">
+				<img class="header-logo" src="../img/logo.png">
+				<nav>
+					<ul>
+						<li><a href="../index.html">主页</a></li><!--
+						--><li><a href="QuestionCreate.html">生成问卷</a></li><!--
+						--><li><a href="QuestionChoose.html">问卷选择</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!-- 主体上侧色块 -->
+		<div class="content-top"></div>
+
+		<div class="content-right" id="content-right">
+			<div class="display-block" id="display-block">
+				<div class="display-block-span">
+					<span>问卷列表</span>
+				</div>
+				<!-- <ul>
+					<li>PHP是世界上最好的语言</li>
+					<li>Java是世界上最好的语言</li>
+					<li>Python是世界上最好的语言</li>
+					<li>Javascript是世界上最好的语言</li>
+					<li>PHP是世界上最好的语言</li>
+				</ul> -->
+			</div>
+		</div>
+
+		<!-- 主体区域 -->
+		<div class="content-body" id="content-body">
+			<div class="form-header"></div>
+			<div class="form-content">
+				<form id="form" class="form">
+				</form>
+				<div class="generate-question-div">
+					<button class="generate-question" onclick="Submit()">提交问卷</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- 底栏 -->
+		<footer>
+			<div class="contact">
+				<h3>联系我们</h3>
+				<p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯</br>也可以通过以下任何方式关注我们的动态</p>
+				<div class="contact_submit">
+					<input type="text" class="email"  placeholder="xiaoqi@email.com">
+					<input type="submit" class="sub">
+				</div>
+				<div class="icon">
+					<img src="../img/icon1.png">
+					<img src="../img/icon2.png">
+					<img src="../img/icon3.png">
+					<img src="../img/icon4.png">
+				</div>
+			</div>
+			<div class="footer_bottom">	
+				<p>@Java课设出品</p>
+			</div>
+		</footer>
+
+	</div>
+
+	<script type="text/javascript" src="../js/QuestionFill.js"></script>
+</body>
+</html>
